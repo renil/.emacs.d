@@ -138,3 +138,6 @@
 
 ;; Map files to modes
 (require 'mode-mappings)
+
+;; setup Key bindings
+(require 'key-bindings)
