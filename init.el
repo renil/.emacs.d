@@ -94,6 +94,7 @@
    (init--install-packages)))
 
 (require 'sane-defaults)
+(require 'ido)
 
 ;; Setup Extensions
 (eval-after-load 'ido '(require 'setup-ido))

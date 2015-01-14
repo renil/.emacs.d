@@ -1,6 +1,4 @@
 ;; Interactively Do Things
-
-(require 'ido)
 (ido-mode t)
 (setq ido-enable-prefix nil
       ido-enable-flex-matching t
