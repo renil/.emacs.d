@@ -84,7 +84,6 @@
      prodigy
      cider
      powershell
-     csharp-mode
      omnisharp
      )))
 
