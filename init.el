@@ -134,7 +134,7 @@
 ; (eval-after-load 'ruby-mode '(require 'setup-ruby-mode))
 ; (eval-after-load 'clojure-mode '(require 'setup-clojure-mode))
 ; (eval-after-load 'markdown-mode '(require 'setup-markdown-mode))
-(eval-after-load 'csharp-mode '(require 'setup-omnisharp-mode))
+;(eval-after-load 'csharp-mode '(require 'setup-omnisharp-mode))
 
 ;; Map files to modes
 (require 'mode-mappings)
