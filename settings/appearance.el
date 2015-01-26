@@ -19,7 +19,8 @@
   (when (boundp 'magnars/default-font)
     (set-face-attribute 'default nil :font magnars/default-font)))
 
-(use-default-theme)
+;(use-default-theme)
+(load-theme 'monokai)
 
 ;; Don't defer screen updates when performing operations
 (setq redisplay-dont-pause t)
@@ -43,7 +44,3 @@
   (blink-cursor-mode -1))
 
 (provide 'appearance)
-
-
-
-
