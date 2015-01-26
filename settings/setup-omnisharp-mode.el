@@ -3,6 +3,8 @@
 (eval-after-load 'company
   '(add-to-list 'company-backends 'company-omnisharp))
 
+(add-hook 'csharp-mode-hook 'omnisharp-mode)
+
 (defun find-project-root ()
   (interactive)
   (if (ignore-errors (eproject-root))
@@ -42,3 +44,4 @@
 
 
 (provide 'setup-omnisharp-mode)
+

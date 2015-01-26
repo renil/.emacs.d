@@ -83,7 +83,10 @@
      clojure-mode
      prodigy
      cider
+     csharp-mode
+     popup
      powershell
+     auto-complete
      omnisharp
      )))
 
@@ -123,6 +126,7 @@
               restclient-mode-hook
               js-mode-hook
               java-mode
+              csharp-mode
               ruby-mode
               markdown-mode
               groovy-mode)
