@@ -132,13 +132,14 @@
               groovy-mode)
     (add-hook it 'turn-on-smartparens-mode))
 
+(setq omnisharp-server-executable-path "C:\\oss\\OmniSharpServer\\OmniSharp\\bin\\Debug\\OmniSharp.exe")
 
 ;; Language specific setup files
 ; (eval-after-load 'js2-mode '(require 'setup-js2-mode))
 ; (eval-after-load 'ruby-mode '(require 'setup-ruby-mode))
 ; (eval-after-load 'clojure-mode '(require 'setup-clojure-mode))
 ; (eval-after-load 'markdown-mode '(require 'setup-markdown-mode))
-;(eval-after-load 'csharp-mode '(require 'setup-omnisharp-mode))
+(eval-after-load 'csharp-mode '(require 'setup-omnisharp-mode))
 
 ;; Map files to modes
 (require 'mode-mappings)
